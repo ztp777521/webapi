@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table name="tb_activity" schema="dbo" catalog="ZHPJY"
+		class="Activity">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="tb_browse_record" schema="dbo" catalog="ZHPJY"
+		class="Browserecord">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="tb_gridinfo" schema="dbo" catalog="ZHPJY"
+		class="Gridinfo">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="tb_group" schema="dbo" catalog="ZHPJY" class="Group">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="tb_group_care" schema="dbo" catalog="ZHPJY"
+		class="Groupcare">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="tb_idea" schema="dbo" catalog="ZHPJY" class="Idea">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="tb_idea_reply" schema="dbo" catalog="ZHPJY"
+		class="Ideareply">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="tb_integrate_material" schema="dbo" catalog="ZHPJY"
+		class="Integratematerial">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="tb_launch_vote" schema="dbo" catalog="ZHPJY"
+		class="Launchvote">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="tb_manager" schema="dbo" catalog="ZHPJY"
+		class="Manager">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="tb_material_subscribe" schema="dbo" catalog="ZHPJY"
+		class="Mateialsubscribe">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="tb_material_type" schema="dbo" catalog="ZHPJY"
+		class="Materialtype">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="tb_module" schema="dbo" catalog="ZHPJY"
+		class="Module">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="tb_parameter" schema="dbo" catalog="ZHPJY"
+		class="Parameter">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="tb_resident_user" schema="dbo" catalog="ZHPJY"
+		class="Residentuser">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="tb_role" schema="dbo" catalog="ZHPJY" class="Role">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="tb_role_module" schema="dbo" catalog="ZHPJY"
+		class="Rolemodule">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="tb_service_type" schema="dbo" catalog="ZHPJY"
+		class="Servicetype">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="tb_shop" schema="dbo" catalog="ZHPJY" class="Shop">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="tb_shop_service" schema="dbo" catalog="ZHPJY"
+		class="Shopservice">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="tb_show_type" schema="dbo" catalog="ZHPJY"
+		class="Showtype">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="tb_state" schema="dbo" catalog="ZHPJY" class="State">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="tb_unemployment_registration" schema="dbo"
+		catalog="ZHPJY" class="Unemploymentregisration">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="tb_unemployment_reply" schema="dbo" catalog="ZHPJY"
+		class="Unemploymentreply">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="tb_volunteer" schema="dbo" catalog="ZHPJY"
+		class="Volunteer">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="tb_volunteer_grid" schema="dbo" catalog="ZHPJY"
+		class="Volunteergrid">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="tb_vote_record" schema="dbo" catalog="ZHPJY"
+		class="Voterecord">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+<table name="tb_vote_volunteer" schema="dbo" catalog="ZHPJY"
+	class="Votevolunteer">
+	<primary-key>
+		<generator class="native"></generator>
+	</primary-key>
+</table>
+</hibernate-reverse-engineering>

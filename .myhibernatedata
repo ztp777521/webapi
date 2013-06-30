@@ -1,0 +1,24 @@
+#MyEclipse Hibernate Properties
+#Wed Jun 05 10:46:50 CST 2013
+sessionFactoryName=thinker.webapi.db.entry.HibernateSessionFactory
+genBasicCompId=true
+profile=
+daoSFId=
+version=3.3
+jndiPath=
+detectM2M=false
+reStrategyClass=
+detectO2O=false
+springDaoFile=
+useJavaTypes=false
+keyGenerator=native
+libInstallFolder=WebRoot/WEB-INF/lib
+addLibs2Project=false
+genVersionTag=false
+sessionFactoryId=
+basePersistenceClass=
+genAnnotations=true
+reSettingsFile=/webapi/hibernate.reveng.xml
+configFile=/webapi-v2.0/src/hibernate.cfg.xml
+createConfigFile=true
+addLibs2Classpath=false
